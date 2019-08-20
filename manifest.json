@@ -1,0 +1,7 @@
+{
+	"name": "{{Your Figma plugin name}}",
+	"id": "{{Your Figma plugin ID}}",
+	"api": "1.0.0",
+	"main": "dist/code.js",
+	"ui": "dist/ui.html"
+}

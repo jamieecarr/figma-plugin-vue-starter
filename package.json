@@ -1,0 +1,43 @@
+{
+	"name": "my-new-figma-plugin",
+	"description": "A Vue.js project",
+	"version": "1.0.0",
+	"author": "",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+		"watch": "webpack --mode=development --watch"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.5.5",
+		"vue": "^2.5.11",
+		"vue-resource": "^1.5.1",
+		"vuex": "^3.1.1"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 8"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/plugin-transform-runtime": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"babel-loader": "^8.0.6",
+		"cross-env": "^5.0.5",
+		"css-loader": "^3.2.0",
+		"file-loader": "^4.2.0",
+		"html-webpack-inline-source-plugin": "0.0.10",
+		"html-webpack-plugin": "^3.2.0",
+		"node-sass": "^4.5.3",
+		"sass-loader": "^7.2.0",
+		"ts-loader": "^6.0.4",
+		"typescript": "^3.5.3",
+		"vue-loader": "^15.7.1",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.28.4",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.8.0"
+	}
+}
