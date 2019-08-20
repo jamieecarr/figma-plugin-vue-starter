@@ -72,7 +72,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./index.html",
+      template: "./public/index.html",
       filename: "ui.html",
       inlineSource: ".(js)$",
       chunks: ["ui"]
