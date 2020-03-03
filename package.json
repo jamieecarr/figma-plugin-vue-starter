@@ -1,6 +1,6 @@
 {
   "name": "my-new-figma-plugin",
-  "description": "A Vue.js project",
+  "description": "Built with figma plugin starter for Vue",
   "version": "1.0.0",
   "author": "",
   "license": "MIT",
@@ -10,10 +10,10 @@
     "watch": "webpack --mode=development --watch"
   },
   "dependencies": {
-    "@babel/runtime": "^7.5.5",
-    "vue": "^2.5.11",
+    "@babel/runtime": "^7.8.4",
+    "vue": "^2.6.11",
     "vue-resource": "^1.5.1",
-    "vuex": "^3.1.1"
+    "vuex": "^3.1.2"
   },
   "browserslist": [
     "> 1%",
@@ -21,23 +21,23 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
     "babel-loader": "^8.0.6",
-    "cross-env": "^5.0.5",
-    "css-loader": "^3.2.0",
-    "file-loader": "^4.2.0",
+    "cross-env": "^5.2.1",
+    "css-loader": "^3.4.2",
+    "file-loader": "^4.3.0",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^7.2.0",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.3",
-    "vue-loader": "^15.7.1",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.8.0"
+    "node-sass": "^4.13.1",
+    "sass-loader": "^7.3.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
