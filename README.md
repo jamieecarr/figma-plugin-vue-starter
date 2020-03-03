@@ -19,7 +19,9 @@ git clone https://github.com/jamieecarr/figma-plugin-vue-starter.git [plugin-nam
 npm install
 ```
 
-You'll need to update your `manifest.json` and `package.json` with your plugin's name and info. You can get your ID by registering a new plugin on the Figma desktop app.
+You'll need to update your `manifest.json` with your plugin's name and ID.
+
+You can get an ID by registering a new plugin on the Figma desktop app by selecting `Create new Plugin` in the plugins menu.
 
 ## Build Setup
 
@@ -32,6 +34,8 @@ npm run build
 ```
 
 ## Features
+
+✨ [Figma Design System](https://thomas-lowry.github.io/figma-plugin-ds/) built in
 
 ✨ ES6 / Typescript support
 
